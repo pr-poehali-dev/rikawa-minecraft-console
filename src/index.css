@@ -6,44 +6,44 @@
 
 @layer base {
   :root {
-    --background: 160 80% 5%;
-    --foreground: 142 76% 73%;
+    --background: 260 40% 8%;
+    --foreground: 270 60% 85%;
 
-    --card: 160 60% 8%;
-    --card-foreground: 142 76% 73%;
+    --card: 260 35% 12%;
+    --card-foreground: 270 60% 85%;
 
-    --popover: 160 60% 8%;
-    --popover-foreground: 142 76% 73%;
+    --popover: 260 35% 12%;
+    --popover-foreground: 270 60% 85%;
 
-    --primary: 142 76% 36%;
-    --primary-foreground: 160 80% 5%;
+    --primary: 270 70% 60%;
+    --primary-foreground: 260 40% 8%;
 
-    --secondary: 160 40% 15%;
-    --secondary-foreground: 142 76% 73%;
+    --secondary: 260 30% 18%;
+    --secondary-foreground: 270 60% 85%;
 
-    --muted: 160 40% 15%;
-    --muted-foreground: 142 30% 50%;
+    --muted: 260 30% 18%;
+    --muted-foreground: 260 20% 55%;
 
-    --accent: 142 76% 62%;
-    --accent-foreground: 160 80% 5%;
+    --accent: 280 80% 70%;
+    --accent-foreground: 260 40% 8%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 142 76% 73%;
+    --destructive-foreground: 270 60% 85%;
 
-    --border: 142 76% 36%;
-    --input: 160 40% 15%;
-    --ring: 142 76% 62%;
+    --border: 270 50% 40%;
+    --input: 260 30% 18%;
+    --ring: 270 70% 60%;
 
     --radius: 0rem;
 
-    --sidebar-background: 160 60% 8%;
-    --sidebar-foreground: 142 76% 73%;
-    --sidebar-primary: 142 76% 36%;
-    --sidebar-primary-foreground: 160 80% 5%;
-    --sidebar-accent: 160 40% 15%;
-    --sidebar-accent-foreground: 142 76% 73%;
-    --sidebar-border: 142 76% 36%;
-    --sidebar-ring: 142 76% 62%;
+    --sidebar-background: 260 35% 12%;
+    --sidebar-foreground: 270 60% 85%;
+    --sidebar-primary: 270 70% 60%;
+    --sidebar-primary-foreground: 260 40% 8%;
+    --sidebar-accent: 260 30% 18%;
+    --sidebar-accent-foreground: 270 60% 85%;
+    --sidebar-border: 270 50% 40%;
+    --sidebar-ring: 270 70% 60%;
   }
 }
 
@@ -84,18 +84,18 @@
 
   .minecraft-btn {
     position: relative;
-    background: linear-gradient(180deg, #10b981 0%, #059669 100%);
-    border: 2px solid #065f46;
+    background: linear-gradient(180deg, #a855f7 0%, #7c3aed 100%);
+    border: 2px solid #581c87;
     box-shadow:
       inset 0 2px 0 0 rgba(255, 255, 255, 0.3),
       inset 0 -2px 0 0 rgba(0, 0, 0, 0.3),
-      0 4px 0 0 #064e3b;
+      0 4px 0 0 #4c1d95;
     transform: translateY(0);
     transition: all 0.1s;
   }
 
   .minecraft-btn:hover {
-    background: linear-gradient(180deg, #34d399 0%, #10b981 100%);
+    background: linear-gradient(180deg, #c084fc 0%, #a855f7 100%);
   }
 
   .minecraft-btn:active {
@@ -103,6 +103,6 @@
     box-shadow:
       inset 0 2px 0 0 rgba(255, 255, 255, 0.3),
       inset 0 -2px 0 0 rgba(0, 0, 0, 0.3),
-      0 2px 0 0 #064e3b;
+      0 2px 0 0 #4c1d95;
   }
 }
